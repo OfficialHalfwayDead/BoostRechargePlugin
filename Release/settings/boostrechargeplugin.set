@@ -1,0 +1,4 @@
+Boost recharge plugin
+1|Turn on boost recharge|boost_recharge
+4|Recharge amount|boost_recharge_amount|0|100
+4|Recharge interval|boost_recharge_interval|0.01|5
