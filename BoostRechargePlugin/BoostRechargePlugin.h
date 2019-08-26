@@ -6,6 +6,7 @@ class BoostRechargePlugin : public BakkesMod::Plugin::BakkesModPlugin
 {
 private:
 	std::shared_ptr<bool> isOn;
+	std::shared_ptr<bool> onlyGround;
 	std::shared_ptr<float> interval;
 	std::shared_ptr<float> gameSpeed;
 	std::shared_ptr<float> boostAmount;

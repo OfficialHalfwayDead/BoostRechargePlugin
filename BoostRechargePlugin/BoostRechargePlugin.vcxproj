@@ -103,7 +103,7 @@
       <AdditionalLibraryDirectories>$(BakkesModSDK)\lib</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>H:\timoh\Documents\Bakkes\bakkesmod-patch "$(TargetPath)"</Command>
+      <Command>E:\timoh\Documents\Bakkes\bakkesmod-patch "$(TargetPath)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

@@ -2,6 +2,9 @@
 Custom plugin for BakkesMod that allows you to constantly recharge a given amount of boost at a desired time interval.
 
 ## Installation
+Easy way: https://bakkesplugins.com/plugins/view/8
+
+Manual:
 
 1. Copy `BoostRechargePlugin.dll` to `<steam_directory>/steamapps/common/rocketleague/Binaries/Win32/bakkesmod/plugins`
 2. Copy `boostrechargeplugin.set` to `<steam_directory>/steamapps/common/rocketleague/Binaries/Win32/bakkesmod/plugins/settings`
@@ -14,3 +17,5 @@ Custom plugin for BakkesMod that allows you to constantly recharge a given amoun
 **boost_recharge_amount** - The amount of boost you want to get every time it triggers.
 
 **boost_recharge_interval** - The time interval (in seconds) at which you want the boost to be given.
+
+**boost_recharge_groundonly** - Only recharge boost while the wheels are touching an object.
