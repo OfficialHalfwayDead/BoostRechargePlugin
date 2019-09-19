@@ -19,3 +19,5 @@ Manual:
 **boost_recharge_interval** - The time interval (in seconds) at which you want the boost to be given.
 
 **boost_recharge_groundonly** - Only recharge boost while the wheels are touching an object.
+
+**boost_recharge_max** - The boost will only recharge up to this maximum value and not above.

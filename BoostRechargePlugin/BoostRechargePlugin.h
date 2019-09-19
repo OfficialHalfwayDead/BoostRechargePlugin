@@ -10,6 +10,7 @@ private:
 	std::shared_ptr<float> interval;
 	std::shared_ptr<float> gameSpeed;
 	std::shared_ptr<float> boostAmount;
+	std::shared_ptr<float> boostLimit;
 
 
 public:

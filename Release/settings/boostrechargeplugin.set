@@ -3,3 +3,4 @@ Boost recharge plugin
 1|Only recharge on ground/wall|boost_recharge_groundonly
 4|Recharge amount|boost_recharge_amount|0|100
 4|Recharge interval|boost_recharge_interval|0.01|5
+4|Maximum value to recharge to|boost_recharge_max|0|100
