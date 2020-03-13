@@ -12,7 +12,7 @@ void BoostRechargePlugin::onLoad()
 	boostLimit = std::make_shared<float>(100.f);
 
 	cvarManager->registerCvar("boost_recharge", "0", "Turns the boost recharge mod to recharge the set amount of boost at set interval.", true, true, 0.0f, true, 1.0f, true).bindTo(isOn);
-	cvarManager->registerCvar("boost_recharge_max", "100", "The maximum value to which to recharge boost.", true, true, 0.0f, false, 100.0f, true).bindTo(boostLimit);
+	cvarManager->registerCvar("boost_recharge_max", "100", "The maximum value to which to recharge boost.", true, true, 0.0f, false, 9999.0f, true).bindTo(boostLimit);
 	cvarManager->registerCvar("boost_recharge_interval", "0.5", "The interval between recharge triggers in seconds.", true, true, 0.01f, false, 0.0f, true).bindTo(interval);
 	cvarManager->registerCvar("boost_recharge_amount", "3", "The % of boost that is to be restored every interval tick.", true, true, -100.0f, true, 100.0f, true).bindTo(boostAmount);
 	cvarManager->registerCvar("boost_recharge_groundonly", "0", "Only recharge boost while on ground.", true, true, 0.0f, true, 1.0f, true).bindTo(onlyGround);
